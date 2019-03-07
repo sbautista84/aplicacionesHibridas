@@ -1,0 +1,274 @@
+body{
+	font-family: 'Dancing Script', cursive;
+	background-color: #02010a;
+}
+
+figure{
+	margin: 0px;
+}
+
+figcaption{
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    margin-top: 150%;
+  }
+  60%{
+  	margin-top: -5%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    margin-top: 150%;
+  }
+  60%{
+  	margin-top: -5%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}
+@-o-keyframes slideIn {
+  0% {
+    margin-top: 150%;
+  }
+  60%{
+  	margin-top: -5%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}
+@keyframes slideIn {
+  0% {
+    margin-top: 150%;
+  }
+  60%{
+  	margin-top: -5%;
+  }
+  100% {
+    margin-top: 0%;
+  }
+}
+
+header{
+	background-color: #5b7989;
+	text-align: left;
+	border: 1px solid #5b7989;
+	-webkit-border-radius: 10px 10px 0px 0px; 
+  	-moz-border-radius: 10px 10px 0px 0px;
+  	-o-border-radius: 10px 10px 0px 0px; 
+  	border-radius: 10px 10px 0px 0px; 
+  	color: white;
+  	-webkit-animation: 1s ease-out 0s 1 slideIn;
+  	-moz-animation: 1s ease-out 0s 1 slideIn;
+  	-o-animation: 1s ease-out 0s 1 slideIn;
+  	animation: 1s ease-out 0s 1 slideIn;
+}
+
+header h1{
+	
+	text-shadow: 2px 2px #02010a;
+}
+
+
+@media screen and (max-width: 900px){
+	#header-izq h1{
+		text-align: center;
+	}
+
+	#menu{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#menu a{
+		margin-right: 20px;
+	}
+
+	#menu a:last-child{
+		margin-right: 0px;
+	}
+}
+
+@media screen and (min-width: 900px){
+
+header{
+	display: -webkit-box;      
+  	display: -moz-box;         
+  	display: -ms-flexbox;      
+  	display: -webkit-flex;
+	display: flex;
+
+}
+
+#header-izq{
+	-webkit-box-flex: 50%;      
+  	-moz-box-flex: 50%;         
+  	-webkit-flex: 50%;          
+  	-ms-flex: 50%;
+	flex: 50%;
+	padding-left: 2%;
+}
+
+#header-der{
+	-webkit-box-flex: 50%;      
+  	-moz-box-flex: 50%;         
+  	-webkit-flex: 50%;          
+  	-ms-flex: 50%;
+	flex: 50%;
+}
+
+#menu{
+	text-align: right;
+	margin: 4% 4% 4% 0;
+}
+
+#menu a{
+	
+	margin-right: 20px;
+}
+
+#seccion2{
+	display: -webkit-box;      
+  	display: -moz-box;         
+  	display: -ms-flexbox;      
+  	display: -webkit-flex;
+	display: flex;
+	
+}
+
+.column {
+	-webkit-box-flex: 50%;      
+  	-moz-box-flex: 50%;         
+  	-webkit-flex: 50%;          
+  	-ms-flex: 50%;
+	flex: 50%;
+	
+}
+
+#pie{
+	display: -webkit-box;      
+  	display: -moz-box;         
+  	display: -ms-flexbox;      
+  	display: -webkit-flex;
+	display: flex; 
+}
+
+.col-4{
+	-webkit-box-flex: 25%;      
+  	-moz-box-flex: 25%;         
+  	-webkit-flex: 25%;          
+  	-ms-flex: 25%;
+	flex: 25%;
+}
+
+.fila{
+	display: -webkit-box;      
+  	display: -moz-box;         
+  	display: -ms-flexbox;      
+  	display: -webkit-flex;
+	display: flex;
+}
+
+.col-3{
+	-webkit-box-flex: 33,33%;      
+  	-moz-box-flex: 33,33%;         
+  	-webkit-flex: 33,33%;          
+  	-ms-flex: 33,33%;
+	flex: 33,33%;
+}
+
+}
+
+img{
+	max-width: 100%;
+	filter: drop-shadow(2px 2px #02010a);
+	-webkit-filter: drop-shadow(2px 2px #02010a);
+}
+
+.col-3{
+	padding: 20px;
+}
+
+.fila{
+	background-color: #d5c75f;
+}
+
+#menu a{
+	color: white;
+	
+}
+
+#menu a.no-underline{
+	text-decoration: none;
+}
+
+#seccion1{
+	background-color: #82c3a6;
+	text-align: center;
+	padding: 20px;
+}
+
+#seccion2{
+	background-color: #d5c75f;
+	border: 1px solid #d5c75f;
+	padding: 20px;
+}
+
+.column{
+	text-align: center;
+}
+
+#imagen1:hover{
+	transform: rotate(10deg);
+	filter: drop-shadow(2px 2px #82c3a6);
+	-webkit-filter: drop-shadow(2px 2px #82c3a6);
+	border: 2px solid black;
+}
+
+#imagen2:hover{
+	transform: translate(20px,-5px);
+	filter: drop-shadow(2px 2px #82c3a6);
+	-webkit-filter: drop-shadow(2px 2px #82c3a6);
+	border: 2px solid black;
+}
+
+footer{
+	background-color: #C6d5c5;
+	-webkit-border-radius: 0px 0px 10px 10px; 
+  	-moz-border-radius: 0px 0px 10px 10px; 
+  	border-radius: 0px 0px 10px 10px;
+  	padding: 20px;
+}
+
+#lista-redes a{
+	color: black;
+	margin-right: 20px;
+}
+
+#paisaje1, #retrato1{
+	-webkit-filter: blur(10px); 
+	filter: blur(10px); 
+}
+
+#paisaje2, #paisaje4, #paisaje6, #retrato2, #retrato4, #retrato6{
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);	
+}
+
+#paisaje3, #retrato6{
+	-webkit-filter: sepia(90%); 
+	filter: sepia(90%);
+}
+
+
+
+
+
